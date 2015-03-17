@@ -1,0 +1,130 @@
+a <- available.packages()
+a
+head(rownames(a), 3)
+runif(2)
+args(lapply)
+str(lapply)
+x = c(norm(10), runif(10), rnorm(10, 1))
+x = c(rnorm(10), runif(10), rnorm(10, 1))
+x
+args(gl)
+gl(3, 10)
+f = gl(3, 10)
+split(x, f)
+lapply(split(x, f), mean, SIMPLIFY = TRUE)
+args(lapply)
+printmessage = function(x) {}
+printmessage = function(x) {
+if x > 0
+library(datasets)
+data(iris)
+?iris
+iris
+library(swirl)
+swirl()
+submit()
+'I' %p% 'love' %p% 'R!'
+head(flags)
+dim(flags)
+viewinfo()
+class(flags)
+cls_list <- lapply(flags, class)
+cls_list
+class(cls_list)
+as.character(cls_list)
+sapply(flags, class)
+cls_vect <- sapply(flags, class)
+class(cls_vest)
+class(cls_vect)
+sum(flags$orange)
+flag_colors <- flags[, 11:17]
+head(flag_colors)
+lapply(flag_colors, sum)
+sapply(flag_colors, sum)
+sapply(flag_colors, mean)
+flag_shapes <- flags[, 19:23]
+lapply(flag_colors, range)
+lapply(flag_shapes, range)
+sapply(flag_shapes, range)
+shape_mat <- sapply(flag_shapes, range)
+shape_mat
+class(shape_mat)
+unique(c(3, 4, 5, 5, 6, 6, 5))
+unique(c(3, 4, 5, 5, 6, 6))
+unique(c(3, 4, 5, 5, 5, 6, 6, 6))
+unique(c(3, 4, 5, 5, 5, 6, 6))
+unique_vals <- lapply(flags, unique)
+unique_vals
+lapply(unique_vals, length)
+sapply(unique_vals, length)
+sapply(flags, length)
+sapply(flags, unique)
+lapply(unique_vals, function(elem) elem[2])
+str(flags)
+summary(flags)
+sapply(flags, unique)
+vapply(flags, unique, numeric(1))
+ok()
+sappy(flags, class)
+sapply(flags, class)
+vapply(flags, class, character(1))
+?tapply
+table(flags@landmass)
+table(flags$landmass)
+table(flags$animate)
+tapply(flags$animate, flags$landmass, mean)
+tapply(flags$population, flags$red, summary)
+tapply(flags$population, flags$landmass, summary)
+library(iris)
+library(datasets)
+data(iris)
+iris
+tapply(iris$Sepal.Length, iris$Species = "virginia", mean)
+tapply(iris$Sepal.Length, iris$Species, mean)
+colMeans(iris)
+apply(iris[, 1:4], 2, mean)
+rowMeans(iris[, 1:4])
+apply(iris, 2, mean)
+?apply
+data(mtcars)
+mtcars
+tapply(mtcars$mpg, mtcars$cyl, mean)
+tapply(mtcars$cyl, mtcars$mpg, mean)
+avg4 <- tapply(mtcars$hp, mtcars$cyl, mean)
+tapply(mtcars$hp, mtcars$cyl, mean)
+avg4
+class(avg4)
+abs(avg[1] - avg4[3])
+abs(avg4[1] - avg4[3])
+debug(ls)
+ls
+mtcars$cyl
+set.seed(1)
+rpois(5, 2)
+set.seed(10)
+x <- rep(0:1, each = 5)
+x
+e <- rnorm(10, 0, 20)
+y <- 0.5 + 2 * x + e
+plot(x, y)
+?dnorm
+exit
+q
+end
+0
+library(datasets)
+Rprof()
+fit <- lm(y ~ x1 + x2)
+source('rankall.R')
+head(rankall('heart attack', 20), 10)
+head(rankall('heart attack', 20), 10)
+source('rankall.R')
+head(rankall('heart attack', 20), 10)
+head(rankall('heart attack', 'worst'), 10)
+tail(rankall('pneumonia', 'worst'), 10)
+source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript3.R")
+submit()
+quit
+escape()
+exit()
+quit()
